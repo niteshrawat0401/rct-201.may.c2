@@ -1,3 +1,4 @@
+// import Eye from "./eve.svg"
 export const Input = ({
   type,
   size,
@@ -9,7 +10,13 @@ export const Input = ({
   return (
     <div className="inputContainer">
       {/* Add Right Logo */}
-      <input className={`input`} />
+      <input className={`input
+      
+      ${type="text"} 
+
+    ${rightLogo="./eve.svg"}
+
+      `} />
     </div>
   );
 };
