@@ -1,4 +1,5 @@
-// import Eye from "./eve.svg"
+
+import pic from "../Components/eye.svg"
 export const Input = ({
   type,
   size,
@@ -7,16 +8,13 @@ export const Input = ({
   rightLogoOnClick,
   onChange,
 }) => {
+  
   return (
     <div className="inputContainer">
       {/* Add Right Logo */}
-      <input className={`input
-      
-      ${type="text"} 
 
-    ${rightLogo="./eve.svg"}
-
-      `} />
+      <input className={`input`} type={"password"} size={size} onChange={onChange}/>
+      <img src={pic} width={"20px"} alt="" />
     </div>
   );
 };
