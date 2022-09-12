@@ -8,7 +8,9 @@ export const Pagination = ({ total, selected, onPageChange }) => {
 
       <input
       className="inPut"
+
       key={index}
+      
       value={index+1}
       />
     )

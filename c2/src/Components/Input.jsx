@@ -1,5 +1,6 @@
 
 import pic from "../Components/eye.svg"
+
 export const Input = ({
   type,
   size,
@@ -14,6 +15,7 @@ export const Input = ({
       {/* Add Right Logo */}
 
       <input className={`input`} type={"password"} size={size} onChange={onChange}/>
+
       <img src={pic} width={"20px"} alt="" />
     </div>
   );
